@@ -1,0 +1,14 @@
+[project]
+name = "cotton_reload"
+version = "1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "Django",
+    "django-cotton",
+    "django-browser-reload",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "django-debug-toolbar",
+]
