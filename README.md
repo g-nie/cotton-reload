@@ -10,9 +10,7 @@ with [django-browser-reload](https://github.com/adamchainz/django-browser-reload
 
 Then:
 
-`uv run python manage.py runserver 0:9037`
-
-And visit the application on `http://localhost:9037`
+`uv run python manage.py runserver`
 
 ### Findings
 
