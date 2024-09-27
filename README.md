@@ -2,6 +2,8 @@
 Minimal Django project to demonstrate an issue when using [django-cotton](https://github.com/wrabit/django-cotton)
 with [django-browser-reload](https://github.com/adamchainz/django-browser-reload/).
 
+Issue: https://github.com/wrabit/django-cotton/issues/165
+
 ### Run
 
 (Assuming [uv](https://github.com/astral-sh/uv) is installed)
