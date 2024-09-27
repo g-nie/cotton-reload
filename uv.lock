@@ -30,22 +30,16 @@ dependencies = [
     { name = "django" },
     { name = "django-browser-reload" },
     { name = "django-cotton" },
-]
-
-[package.dev-dependencies]
-dev = [
     { name = "django-debug-toolbar" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "django" },
-    { name = "django-browser-reload" },
-    { name = "django-cotton" },
+    { name = "django", specifier = "==5.1.1" },
+    { name = "django-browser-reload", specifier = "==1.15.0" },
+    { name = "django-cotton", specifier = "==1.0.10" },
+    { name = "django-debug-toolbar", specifier = "==4.4.6" },
 ]
-
-[package.metadata.requires-dev]
-dev = [{ name = "django-debug-toolbar" }]
 
 [[package]]
 name = "django"

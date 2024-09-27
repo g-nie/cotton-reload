@@ -1,0 +1,4 @@
+django==5.1.1
+django-browser-reload==1.15.0
+django-cotton==1.0.10
+django-debug-toolbar==4.4.6

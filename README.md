@@ -10,6 +10,8 @@ Issue: https://github.com/wrabit/django-cotton/issues/165
 
 `uv sync`
 
+Or manually create a virtual environment and `pip install -r requirements.txt`
+
 Then:
 
 `uv run python manage.py runserver`

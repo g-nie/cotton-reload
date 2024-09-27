@@ -3,12 +3,8 @@ name = "cotton_reload"
 version = "1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "Django",
-    "django-cotton",
-    "django-browser-reload",
-]
-
-[tool.uv]
-dev-dependencies = [
-    "django-debug-toolbar",
+    "Django==5.1.1",
+    "django-cotton==1.0.10",
+    "django-browser-reload==1.15.0",
+    "django-debug-toolbar==4.4.6",
 ]
