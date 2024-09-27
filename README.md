@@ -20,4 +20,4 @@ I kept appending characters to the `home.html` template and waited for the refre
 execute after every new character (`home.html` is the cotton component).
 
 It took it 39 characters (and 39 refreshes) for the page load to need 100ms, and it kept getting worse (as monitored by the debug toolbar).
-The initial page load took ~5ms on my machine.
+The initial page load took ~3ms on my machine.
