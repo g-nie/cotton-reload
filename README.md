@@ -14,8 +14,8 @@ Then:
 
 ### Findings
 
-I kept appending characters to the `home.html` template and waited for the refresh to
-execute after every new character (`home.html` is the cotton component).
+I kept appending characters to the `hello.html` template and waited for the refresh to
+execute after every new character (`hello.html` is the cotton component).
 
 It took it 39 characters (and 39 refreshes) for the page load to need 100ms, and it kept getting worse (as monitored by the debug toolbar).
 The initial page load took ~3ms on my machine.
